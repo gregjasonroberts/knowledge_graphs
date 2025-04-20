@@ -3,12 +3,12 @@
 This summary reflects insights from the early chapters of Knowledge Graphs: Fundamentals, Techniques, and Applications
 by Kejriwal, Knoblock, and Szekely, along with real-world modeling examples like Wikidata.
 
-Overview
+### Overview
 Knowledge graphs (KGs) are structured representations of entities and their relationships, enabling semantic understanding and machine reasoning.
 Core to this is the use of RDF (Resource Description Framework) triples and ontologies that define types and relationships. Real-world KGs like
 Wikidata extend this further by using a property-centric model with richly annotated facts, qualifiers, and provenance.
 
-Key Ideas
+### Key Ideas
 1. Semantic Enrichment through Ontologies and RDFS
 Ontologies provide semantic structure by defining classes, subclasses, and types using rdfs:Class, rdfs:subClassOf, and rdf:type.
 This allows knowledge graphs to support hierarchical reasoning and structured queries.
