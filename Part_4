@@ -1,4 +1,4 @@
-##  Chapter 10 Summary  Building Smarter, Safer Large Language Models
+##  Chapter 10 Summary from NLP in Action -  Building Smarter, Safer Large Language Models
 
 Chapter 10 explores how to harness the power of large language models (LLMs) responsibly and effectively. It addresses the challenges of misinformation, bias, energy use, and accessibility, while offering strategies to improve LLM output through fine-tuning, retrieval-based methods, and better prompting. The chapter emphasizes that although LLMs like GPT-4 produce fluent, intelligent-sounding text, their generation is fundamentally based on statistical token prediction—not true understanding. Readers learn how to refine these models for factual, efficient, and domain-specific applications while remaining mindful of their social and environmental impact.
 
