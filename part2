@@ -1,0 +1,49 @@
+## Part 2: Chapter Summaries – Domain Discovery & Web Information Extraction
+
+These chapters outline how domain-relevant data is acquired and transformed into structured knowledge. Chapter 3 focuses on **focused crawling** to discover web pages specific to a target domain. Chapter 5 presents a detailed look at **information extraction techniques**, including wrappers and modern learning-based methods, culminating in a multi-dimensional comparative framework.
+
+---
+
+### Chapter 3: Domain Discovery
+
+This chapter introduces **focused crawling**—a method for selectively acquiring high-quality, domain-relevant web content used in knowledge graph construction.
+
+#### Key Concepts
+
+1. **Focused Crawler Types**  
+   Introduces several intelligent crawling strategies:
+   - **Best-first crawlers** use a relevance ranking heuristic.
+   - **Learning-based crawlers** apply classifiers to predict topicality.
+   - **Context-focused crawlers** evaluate both linked pages and surrounding context.
+   - **Semantic crawlers** leverage external ontologies or structured data.
+
+2. **Relevance Estimation**  
+   Central to focused crawling is estimating semantic relevance, often using classifiers trained to recognize domain content with minimal false positives.
+
+3. **Domain Discovery Tool (DDT)**  
+   The Domain Discovery Tool combines classifier-based crawling with bootstrapped document expansion. It enables iterative, semi-automated domain corpus construction guided by domain experts.
+
+---
+
+### Chapter 5: Web Information Extraction
+
+This chapter explores techniques for converting web content into structured knowledge. It focuses on **wrapper generation** approaches and evaluates them through an empirical comparison along multiple dimensions.
+
+#### Key Concepts
+
+1. **Wrapper Generation Spectrum**  
+   Describes three categories:
+   - **Manually constructed or supervised wrappers**: High precision, but labor-intensive.
+   - **Semi-supervised wrappers**: Require a few labeled examples and generalize patterns.
+   - **Unsupervised wrappers**: Discover patterns without labels, enabling large-scale application but with potential noise.
+
+2. **Comparative Analysis Dimensions**  
+   The chapter presents a nuanced framework to compare wrapper approaches based on:
+   - **Task/domain dimension**: How specific or general the method is to a topic or data format.
+   - **Technique-based dimension**: The learning paradigm used (manual rules, heuristics, statistical models).
+   - **Automation dimension**: Degree of manual effort vs. automation required.
+
+3. **Beyond Wrappers: Structured Data Extraction**  
+   Recognizes limitations of traditional wrappers and shifts focus to extracting from **structured web data** like tables, RDFa, and schema.org annotations. These methods benefit from regularity and embedded semantics, often yielding higher-quality facts.
+
+---
