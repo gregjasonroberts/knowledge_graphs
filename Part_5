@@ -1,5 +1,5 @@
 
-##  Chapter 11 Summary – Information Extraction and Knowledge Graphs
+##  Chapter 11 Summary Information Extraction and Knowledge Graphs
 
 This chapter explains how to extract structured facts from unstructured text and represent them using **knowledge graphs**, enabling AI systems to reason about the world rather than just generate plausible-sounding language. By combining **entity extraction**, **dependency parsing**, and **symbolic reasoning**, developers can build systems that understand relationships between concepts and ground language models in factual knowledge.
 
