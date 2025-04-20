@@ -1,5 +1,5 @@
 
-Part 1: Knowledge Graphs – Summary of Key Concepts
+### Part 1: Knowledge Graphs – Summary of Key Concepts
 This summary reflects insights from the early chapters of Knowledge Graphs: Fundamentals, Techniques, and Applications
 by Kejriwal, Knoblock, and Szekely, along with real-world modeling examples like Wikidata.
 
@@ -22,9 +22,3 @@ Wikidata Data Model Documentation
 3. RDF Triples Promote Interoperability and Extensibility
 The RDF triple structure (subject, predicate, object) provides a universal format for expressing knowledge. It supports linking diverse
 datasets and querying with tools like SPARQL.
-
-Example:
-(:Tesla, :isTypeOf, :ElectricCar)
-This fact can be easily linked to broader data via URIs and ontologies.
-
-W3C RDF 1.1 Primer
