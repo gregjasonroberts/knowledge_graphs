@@ -51,3 +51,11 @@ This chapter explores techniques for converting web content into structured know
       - Parsing semantic structure (e.g., headers, aggregations),
       - Using machine learning or rule-assisted active learning for efficient labeling.
       - These tables can not only populate new KGs but also update or enrich existing ones (e.g., DBpedia, YAGO) with more current or complete data. Despite progress, extracting reliable knowledge from web tables remains an open research problem.
+
+
+References:
+
+DDT Development Team NYU. “Domain Discovery Tool.” Domain Discovery Tool (DDT) Documentation — Domain Discovery Tool 1.0 documentation, https://domain-discovery-tool.readthedocs.io/en/latest/. Accessed 20 April 2025.
+
+Kejriwal, Mayank, Craig A. Knoblock, and Pedro Szekely. 2021. Knowledge Graphs: Fundamentals, Techniques, and Applications. Cambridge, MA: MIT Press. [ISBN-13: 978-0262045094] Chapter 3 Domain Discovery, pages 53–76, Chapter 5 Web Information Extraction, pages 97–124.
+
