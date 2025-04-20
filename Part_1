@@ -21,3 +21,13 @@ Wikidata exemplifies a property-centric model where properties define not just r
 
 3. RDF Triples Promote Interoperability and Extensibility:  
 The RDF triple structure (subject, predicate, object) provides a universal format for expressing knowledge.  
+
+References:
+
+J. Collio, A. Aguilera and I. Dongo, "Toward an Enrichment of Ontologies Inferred From RDF Documents," in IEEE Access, vol. 12, pp. 148037-148056, 2024, doi: 10.1109/ACCESS.2024.3475388.
+keywords: {Ontologies;Resource description framework;OWL;Semantics;Annotations;Triples (Data structure);Object recognition;W3C;Syntactics;Rough surfaces;Query processing;RDF;OWL;ontology;query SPARQL;summarization;object property axioms},
+
+Kejriwal, Mayank, Craig A. Knoblock, and Pedro Szekely. 2021. Knowledge Graphs: Fundamentals, Techniques, and Applications. Cambridge, MA: MIT Press. [ISBN-13: 978-0262045094] Chapter 1 Introduction to Knowledge Graphs, pages 3–19, Chapter 2 Modeling and Representing Knowledge Graphs, pages 21–49.
+
+
+
