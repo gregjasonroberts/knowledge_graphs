@@ -1,26 +1,23 @@
 
 ### Part 1: Knowledge Graphs – Summary of Key Concepts
-<iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.com/books?id=9u8gEAAAQBAJ&newbks=0&lpg=PR3&pg=PA30&output=embed" width=500 height=500></iframe>
+https://www.google.com/books/edition/Knowledge_Graphs/9u8gEAAAQBAJ?hl=en&gbpv=1&pg=PA23&printsec=frontcover
 
-This summary reflects insights from the early chapters of Knowledge Graphs: Fundamentals, Techniques, and Applications
+This following summary reflects insights from the early chapters of Knowledge Graphs: Fundamentals, Techniques, and Applications
 by Kejriwal, Knoblock, and Szekely, along with real-world modeling examples like Wikidata.
 
 ### Overview
 Knowledge graphs (KGs) are structured representations of entities and their relationships, enabling semantic understanding and machine reasoning.
 Core to this is the use of RDF (Resource Description Framework) triples and ontologies that define types and relationships. Real-world KGs like
-Wikidata extend this further by using a property-centric model with richly annotated facts, qualifiers, and provenance.
+Wikidata https://www.wikidata.org/wiki/Wikidata:Data_model extend this further by using a property-centric model with richly annotated facts, qualifiers, along with its origin.
 
 ### Key Ideas
 1. Semantic Enrichment through Ontologies and RDFS
 Ontologies provide semantic structure by defining classes, subclasses, and types using rdfs:Class, rdfs:subClassOf, and rdf:type.
 This allows knowledge graphs to support hierarchical reasoning and structured queries.
 
-2. Property-Centric Modeling Enables Richer Context
-Wikidata exemplifies a property-centric model where properties (P31, P21, etc.) define not just relations but carry additional metadata
-such as qualifiers and sources. This supports more expressive, context-aware knowledge representation.
+2. Property-Centric Modeling Enables Richer Context: 
+Wikidata exemplifies a property-centric model where properties define not just relations but carry additional metadata such as qualifiers and sources from the web. This supports more expressive, context-aware knowledge representation.
 
-Wikidata Data Model Documentation
 
-3. RDF Triples Promote Interoperability and Extensibility
-The RDF triple structure (subject, predicate, object) provides a universal format for expressing knowledge. It supports linking diverse
-datasets and querying with tools like SPARQL.
+3. RDF Triples Promote Interoperability and Extensibility:  
+The RDF triple structure (subject, predicate, object) provides a universal format for expressing knowledge.  
