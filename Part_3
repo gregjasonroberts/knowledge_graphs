@@ -24,3 +24,9 @@ NER systems perform best when tailored to specific domains. In biomedicine, tool
 
 Other domains, such as illicit web ads and social media, introduce challenges like noisy text, obfuscated language, and long-tail entities. These require specialized models and data handling. Despite domain differences, most NER approaches rely on shared techniques like sequence labeling with RNNs or transformers.
 
+
+References:
+
+Hashemi, Cameron. “What Is Named Entity Recognition (NER)? | Definition from TechTarget.” TechTarget, October 2024, https://www.techtarget.com/whatis/definition/named-entity-recognition-NER. Accessed 20 April 2025.
+
+Kejriwal, Mayank, Craig A. Knoblock, and Pedro Szekely. 2021. Knowledge Graphs: Fundamentals, Techniques, and Applications. Cambridge, MA: MIT Press. [ISBN-13: 978-0262045094] Chapter 4 Named Entity Recognition, pages 77–96.
