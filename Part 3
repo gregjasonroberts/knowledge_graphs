@@ -1,6 +1,6 @@
 ##  Part 3:  Named Entity Recognition (NER)
 
-This chapter introduces **Named Entity Recognition (NER)** as a core step in transforming unstructured text into structured data for use in knowledge graph (KG) construction. NER identifies and classifies mentions of entities—such as people, organizations, and locations—based on a predefined ontology. It forms the backbone of many information extraction (IE) systems that process web pages, legal documents, social media, and more.
+This chapter introduces **Named Entity Recognition (NER)** as a core step in transforming unstructured text into structured data for use in knowledge graph (KG) construction. NER identifies and classifies mentions of entities such as people, organizations, and locations—based on a predefined ontology. It forms the backbone of many information extraction (IE) systems that process web pages, legal documents, social media, and more.
 
 NER focuses primarily on extracting **named instances** of classes in a domain ontology, although **unnamed or inferred entities** can also be important. While NER has become a mature area with many successful applications, challenges remain in handling linguistic variability, entity ambiguity, and domain-specific adaptation.
 
@@ -9,7 +9,7 @@ NER focuses primarily on extracting **named instances** of classes in a domain o
 ###  Key Concepts
 
 #### 1. Why Information Extraction is Difficult  
-IE systems must determine what information is relevant, handle diverse language structures, and map extracted mentions to ontology classes. Text variability—across language, format, and platform (e.g., newswire vs. Twitter)—makes consistent extraction hard. Additionally, semantic equivalence (e.g., “U.N.” vs. “United Nations”) must be resolved through **instance matching**.
+IE systems must determine what information is relevant, handle diverse language structures, and map extracted mentions to ontology classes. Text variability across language, format, and platform (e.g., newswire vs. Twitter) makes consistent extraction hard. Additionally, semantic equivalence (e.g., “U.N.” vs. “United Nations”) must be resolved through **instance matching**.
 
 #### 2. NER Techniques: Supervised, Unsupervised, and Deep Learning  
 NER is tackled using various approaches:
