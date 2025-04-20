@@ -31,19 +31,32 @@ This chapter explores techniques for converting web content into structured know
 
 #### Key Concepts
 
-1. **Wrapper Generation Spectrum**  
-   Describes three categories:
-   - **Manually constructed or supervised wrappers**: High precision, but labor-intensive.
+1. **Wrapper Generation**  
+   Includes three categories:
+   - **Manually constructed and supervised wrappers**: High precision, but labor-intensive. - These wrappers generate extraction rules based on user-labeled examples from a set of webpages. Non-technical users can provide initial labels, and the system may suggest additional pages for labeling, following an active learning approach.
    - **Semi-supervised wrappers**: Require a few labeled examples and generalize patterns.
    - **Unsupervised wrappers**: Discover patterns without labels, enabling large-scale application but with potential noise.
 
 2. **Comparative Analysis Dimensions**  
    The chapter presents a nuanced framework to compare wrapper approaches based on:
-   - **Task/domain dimension**: How specific or general the method is to a topic or data format.
-   - **Technique-based dimension**: The learning paradigm used (manual rules, heuristics, statistical models).
-   - **Automation dimension**: Degree of manual effort vs. automation required.
+   - **Task/domain dimension**: This assesses what types of web content wrappers can handle. Supervised methods work well across websites, while semi-supervised and unsupervised approaches are best suited for single-template pages. Unsupervised systems rely on consistent templates due to the lack of labeled data.  The dimension also considers robustness to missing data, template variation, and non-HTML formats.
+   - **Technique-based dimension**: This evaluates wrappers based on how they extract data. It includes the number of passes over a document, the complexity of extraction rules (such as regular expressions vs. first-order logic), and the features used. It also considers tokenization schemes, such as tag-level or word-level, and the type of learning algorithm—ranging from none (manual wrappers) to pattern mining or rule induction. Learning strategies vary, with some using top-down approaches (e.g., SRV, WHISK) and others bottom-up (e.g., Rapier, WIEN, STALKER).
+   - **Automation dimension**: Degree of manual effort vs. automation required.  It considers user expertise (manual systems often require programming skills), page fetching capabilities, domain adaptability (e.g., modularity), and API or output format support. Manual and supervised systems tend to be more flexible but require user supervision, while unsupervised systems are typically limited to specific domains.
 
 3. **Beyond Wrappers: Structured Data Extraction**  
-   Recognizes limitations of traditional wrappers and shifts focus to extracting from **structured web data** like tables, RDFa, and schema.org annotations. These methods benefit from regularity and embedded semantics, often yielding higher-quality facts.
+   Here’s a **concise summary** of the “Beyond Wrappers” section from Chapter 5:
 
 ---
+
+### Beyond Wrappers: Structured Data and Tables
+
+This section shifts focus from free-form web pages to **structured sources**, especially **web tables** and **databases**—key components of the Deep Web. Unlike static HTML pages, dynamic pages (e.g., product listings on Amazon) are generated from structured backend databases and are rich in information but challenging to access or extract.
+
+**Web tables** are promising data sources for knowledge graphs but pose challenges due to their **format variability**, inconsistent **semantics**, and **ambiguous context**. Tables differ in structure (e.g., relational vs. layout tables), making **automatic classification and extraction difficult**.
+
+Efforts in **table understanding** involve:
+- Extracting tables from HTML into structured formats (like CSV),
+- Parsing semantic structure (e.g., headers, aggregations),
+- Using machine learning or **rule-assisted active learning** for efficient labeling.
+
+These tables can not only **populate new KGs** but also **update or enrich existing ones** (e.g., DBpedia, YAGO) with more current or complete data. Despite progress, extracting reliable knowledge from web tables remains an open research problem.
