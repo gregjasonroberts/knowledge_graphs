@@ -1,1 +1,21 @@
 
+##  Chapter 11 Summary – Information Extraction and Knowledge Graphs
+
+This chapter explains how to extract structured facts from unstructured text and represent them using **knowledge graphs**, enabling AI systems to reason about the world rather than just generate plausible-sounding language. By combining **entity extraction**, **dependency parsing**, and **symbolic reasoning**, developers can build systems that understand relationships between concepts and ground language models in factual knowledge.
+
+Knowledge graphs store entities as nodes and relationships as edges, allowing AI to answer questions, verify claims, and even infer new facts. This chapter shows how to move from raw text to structured knowledge that large language models (LLMs) can reference—bridging the gap between language fluency and real-world understanding.
+
+---
+
+###  Key Findings
+
+1. **Dependency Parsing Enables Relation Extraction**  
+   By parsing sentences into dependency trees, you can extract relationships between named entities. These relationships form the backbone of knowledge graphs, connecting facts across sentences and documents.
+
+2. **Knowledge Graphs Provide Factual Grounding**  
+   Unlike LLMs that predict text based on probability, knowledge graphs store verifiable facts. You can use query languages like **SPARQL**, **Cypher**, or **GraphQL** to retrieve information and ground responses in structured, trusted data.
+
+3. **Symbolic Reasoning Complements Neural Models**  
+   While LLMs lack true understanding, symbolic reasoning through knowledge graphs enables inference and logic-based learning. This helps fill gaps in commonsense knowledge and makes AI systems more interpretable and reliable.
+
+---
