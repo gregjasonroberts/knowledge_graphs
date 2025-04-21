@@ -1,6 +1,6 @@
 #  Knowledge Graphs and NLP: Key Concepts and Applications
 
-This repository captures summaries and key takeaways from selected chapters of two foundational texts in the fields of **knowledge graph construction** and **natural language processing (NLP)**. The purpose is to provide a reference base for building smarter, grounded, and more reliable AI systems using structured knowledge and large language models (LLMs).
+This repository captures summaries and key takeaways from selected chapters of two foundational texts in the fields of **knowledge graph** and **natural language processing (NLP)**. The purpose is to provide a reference base for building smarter, grounded, and more reliable AI systems using structured knowledge and large language models (LLMs).
 
 ---
 
@@ -45,15 +45,19 @@ This chapter discusses the power and limitations of LLMs and how to ground their
 ##  Chapter 11: Information Extraction and Knowledge Graphs  
  _From_ **Natural Language Processing in Action**
 
-This chapter walks through how to extract facts from text and build a knowledge graph for reasoning and grounding LLMs.
- 
+This chapter walks through how to extract facts from text and build a knowledge graph for reasoning and grounding LLMs. It emphasizes that while language models sound fluent, they lack true understanding—something that symbolic, structured knowledge systems can support.
 
-##  Use Cases and Applications
+###  Key Concepts
 
-- Building **RAG pipelines** for factual chatbots
-- Automating **domain-specific information extraction**
-- Populating **knowledge graphs** for recommendation engines, analytics, and decision support
-- Fine-tuning **LLMs** on structured data sources
+1. **Entity and Relation Extraction**  
+   By using part-of-speech tagging and dependency parsing, you can extract named entities and relationships from sentences to create triples that serve as the building blocks of a knowledge graph.
+
+2. **Symbolic Reasoning with Knowledge Graphs**  
+   Knowledge graphs store facts as entity–relationship–entity triples and allow reasoning beyond pattern prediction. You can infer new knowledge and correct errors in LLM outputs by grounding them in trusted facts.
+
+3. **Building and Querying Your Knowledge Base**  
+   Tools like `nlpia2` help visualize graphs like NELL (Never-Ending Language Learning). For production systems, larger graphs like **Wikidata** (100M+ entities) provide a powerful, community-maintained source of structured knowledge. Graph query languages such as **SPARQL** (used in this book), **Cypher** (Neo4j), and **AQL** (ArangoDB) allow you to retrieve information with precision. A major challenge remains in **mapping natural language questions to SPARQL queries**—a critical step in automating knowledge-based reasoning.
+
 
 ---
  
